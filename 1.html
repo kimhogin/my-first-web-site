@@ -3,32 +3,46 @@
 <head>
     <title>홍인이가 만든 페이지 헤헤 </title>
     <meta charset="utf-8">
-</head>
-<body>
-    <h1><a href="index.html">Hongin's WEB</a></h1>
-   
-    <ol>
-        <li><a href="1.html">html</a></li>
-        <li><a href="2.html">CSS</a></li>
-        <li><a href="3.html">JavaScript</a></li>
-    </ol>
+    <link rel="stylesheet" href="styel.css">
+</head>\
+<body style="background-color: black;">
+    <h1><a href="index.html"><font color = "red">Hongin's WEB</font></a></h1>
+   <input type ="button" value="night" onclick="
+   document.querySelector('body').style.backgroundColor='black';
+   document.querySelector('body').style.color='white';
+   ">
+   <input type ="button" value="day" onclick="
+   document.querySelector('body').style.backgroundColor='white';
+   document.querySelector('body').style.color='black';
+   ">
+    <div id = "grid">
+        <div>
+            <ol>
+                <li><a href="1.html">html</a></li>
+                <li><a href="2.html">CSS</a></li>
+                <li><a href="3.html">JavaScript</a></li>
+            </ol>
+        </div>
 
-    <h2>Hellow world.란 무엇인가?</h2>
+        <div>
+            <h2 style="color: white; background-color: brown;">Hellow world.란 무엇인가?</h2>
+                
+            <p>음 과연 <strong> 이것도 <u>에휴</u></strong>
+            <br>이것도 바꿀 수 있는가?? 이것도?? 이것도??
+            추가적인 내용도 넣음. 과연 어디까지 <span style="font-weight: bold;">줄</span> 바꿈을 하지 않을 것인가.</p>
 
-    <p>음 과연 <strong> 이것도 <u>에휴</u></strong>
-    <br>이것도 바꿀 수 있는가?? 이것도?? 이것도??
-    추가적인 내용도 넣음. 과연 어디까지 줄 바꿈을 하지 않을 것인가.</p>
+            <img src="C:\Users\user\Desktop\240312_Creep data_test correlation coefficient.png" width="100%">
+            <p style="margin-top: 40px;">배고프다. 집가고싶다. 하지만 집에가도 똑같다. 먹고 자겠지. 
+            그치만 게임도 안하고, 아무것도 안하고
+            누워만 있고 싶을 걸 우짤까</p>
 
-    <img src="C:\Users\user\Desktop\240312_Creep data_test correlation coefficient.png" width="100%">
-
-    <p style="margin-top: 40px;">배고프다. 집가고싶다. 하지만 집에가도 똑같다. 먹고 자겠지. 
-    그치만 게임도 안하고, 아무것도 안하고
-    누워만 있고 싶을 걸 우짤까</p>
-
-    <p>코딩은 누구에게나 쉽지만 쉽지 않다. 파이썬의 경우 함수는 많지만 모두 다 
-    알기가 쉽지 않다. 또한 버전이 너무 많아 <a href="https://www.tensorflow.org/?hl=ko" target="_blank" title="Tensorflow">텐서플로우</a>나 넌파이, 판다와 같은 
-    라이브러리를 이용하기에는 초보자에게는 너무 어렵고 에러또한 많이 발생한다. 
-    파이썬이 쉽다고, 직관적이라고 생각하지만 그렇지는 않은 듯하다. 
-    <br>왜나면 나는 직관적이지 못 하니까. </p>
+            <p>코딩은 누구에게나 쉽지만 쉽지 않다. 파이썬의 경우 함수는 많지만 모두 다 
+            알기가 쉽지 않다. 또한 버전이 너무 많아 <a href="https://www.tensorflow.org/?hl=ko" target="_blank" title="Tensorflow">텐서플로우</a>나 넌파이, 판다와 같은 
+            라이브러리를 이용하기에는 초보자에게는 너무 어렵고 에러또한 많이 발생한다. 
+            파이썬이 쉽다고, 직관적이라고 생각하지만 그렇지는 않은 듯하다. 
+            <br>왜나면 나는 직관적이지 못 하니까. </p>
+        </div>
+    </div>>
+    
 </body>
 </html>

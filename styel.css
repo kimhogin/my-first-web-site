@@ -1,0 +1,37 @@
+<style>
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  border-bottom:3px solid gray;
+  margin:0;
+  padding:15px;
+}
+
+ol{ 
+  border-right: 3px solid gray;
+  width: 50px;
+  margin: 0px;
+  padding: 40px;
+}
+
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+@media(max-width:600px){
+  #grid{
+  display: block;
+  }
+  ol{ 
+  border-right: none
+  }
+  
+}
+
+</style>
